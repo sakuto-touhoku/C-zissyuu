@@ -9,4 +9,5 @@ int main()
 	a->Input();
 	a->Plus();
 	a->Disp();
+
 }
