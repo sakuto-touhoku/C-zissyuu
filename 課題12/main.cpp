@@ -1,13 +1,6 @@
-#include "Sample.h"
 
+int main()
+{
+	float a = 42.195f, b = 3.14f;
 
-int main(){
-	SampleClass *a;
-		a = new SampleClass();
-
-		a->Input();
-		a->Plus();
-		a->Disp();
-
-		delete a;
 	}
