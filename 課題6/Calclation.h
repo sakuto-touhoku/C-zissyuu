@@ -1,8 +1,11 @@
 class calclation {
+private:
+	float a;
+	float b;
 
 public:
-	void SetA(float a);
-	void SetB(float b);
+	void SetA(float value);
+	void SetB(float value);
 	void Disp();
 
 };
