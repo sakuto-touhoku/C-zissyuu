@@ -1,13 +1,13 @@
 #include "Sample.h"
-Sample::Class *a;
 
-int main()
-{
-	a = new SampleClass;
 
-	a->Input();
-	a->Plus();
-	a->Disp();
-	
-	Delete a;
-}
+int main(){
+	SampleClass *a;
+		a = new SampleClass();
+
+		a->Input();
+		a->Plus();
+		a->Disp();
+
+		delete a;
+	}

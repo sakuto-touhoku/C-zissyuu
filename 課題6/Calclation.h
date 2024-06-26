@@ -22,3 +22,5 @@ public:
     void Disp();
 };
 
+
+#endif // CALCLATION_H
