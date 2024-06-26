@@ -1,9 +1,13 @@
 #include "Sample.h"
 
+SampleClass* a;
+
 int main()
 {
-	SampleClass a;
-	a.Input();
-	a.Plus();
-	a.Disp();
+	a = new SampleClass;
+
+	a->Input();
+	a->Plus();
+	a->Disp();
+
 }
