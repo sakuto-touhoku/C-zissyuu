@@ -1,16 +1,11 @@
 #include "Sample.h"
-
-SampleClass* a;
-
-
+//メイン関数
 int main()
 {
-	//SampleClassクラスのインスタンス（実態）を作る 
-	a = new SampleClass;
-	//３つのメンバ関数を呼び出す 
-	a->Input();
-	a->Plus();
-	a->Disp();
-
-	delete a;
+	//SampleClass クラスのインスタンス（実態）を作る
+	SampleClass a;
+	//３つのメンバ関数を呼び出す
+	a.Input();
+	a.Plus();
+	a.Disp();
 }
