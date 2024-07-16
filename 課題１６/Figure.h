@@ -7,5 +7,5 @@ protected:
 public:
 	void SetTeihen(float f);
 	void SetTakasa(float f);
-	void Disp();
+	void Disp()const;
 };
